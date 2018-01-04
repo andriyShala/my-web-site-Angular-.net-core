@@ -1,0 +1,26 @@
+.proposition-container{
+ 
+}
+.proposition-container .proposition{
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+.proposition-img{
+    float: left;
+    width: 70px;
+height: 70px;
+margin: 5px;
+}
+.proposition .propositon-button{
+float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+.proposition-name{
+    float: left;
+    clear: right;
+}

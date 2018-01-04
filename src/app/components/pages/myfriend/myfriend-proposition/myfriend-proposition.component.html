@@ -1,0 +1,13 @@
+<div class="proposition-container">
+        <div class="proposition" *ngFor="let person of propositions" lazy-load-images>
+                <img class="proposition-img"  src="{{person.currentImage}}">
+                <table class="proposition-name">
+                        <tr>
+                              <td><h4>{{person.firstName}}</h4></td>  
+                              <td><h4>{{person.lastName}}</h4></td>                              
+                        </tr>
+                </table>
+                <button class="propositon-button" (click)="gg(person.idproposition,'false')">Deny</button>
+                <button  class="propositon-button" (click)="gg(person.idproposition,'true')">Accept</button>
+        </div>
+        </div>

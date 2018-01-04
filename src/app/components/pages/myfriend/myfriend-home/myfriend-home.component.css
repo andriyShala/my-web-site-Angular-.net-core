@@ -1,0 +1,35 @@
+nav a {
+    width: 100%;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: rgb(3, 0, 0);
+}
+nav a.active {
+    width: 100%;
+    
+    box-shadow: inset 10px 10px 150px 0px rgba(0,0,0,0.75);
+}
+.table-myfriehome{
+width: 100%;
+}
+.table-myfriehome tr td{
+    justify-content: center;
+    width: 1%;
+}
+.table-myfriehome tr td .bt{
+    outline: none;
+   width: 100%;
+   border-radius: 15px 15px 0px 0px;
+   height: 30px;
+   border: 0px;
+}
+#route1{
+    margin-left: 45%;
+}
+#route2{
+    margin-left: 37%;
+    
+}
+.extraclass{
+    box-shadow: inset 10px 10px 72px 0px rgba(0,0,0,0.75);
+}

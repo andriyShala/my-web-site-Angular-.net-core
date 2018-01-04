@@ -1,0 +1,20 @@
+<table class="table-myfriehome">
+    <tr>
+          
+        <td>
+                <!-- <a id="route1" routerLink="./list" routerLinkActive="active">List</a> -->
+                <button (click)="rout()" class="bt" [class.extraclass]="activateProp1" [routerLink]="['./list']">List</button>
+
+        </td>
+        <td>
+                <button (click)="rout()" class="bt" [class.extraclass]="activateProp2" [routerLink]="['./proposition']">Proposition</button>
+            
+                <!-- <a id="route2" routerLink="./proposition" routerLinkActive="active">Proposition</a> -->
+
+        </td>
+
+        
+    </tr>
+</table>
+
+<router-outlet></router-outlet>

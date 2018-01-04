@@ -1,0 +1,12 @@
+<div class="cot">
+    <div *ngFor="let person of messages">
+        <chatperson 
+        firstName={{person.users[0].firstName}}  
+        lastTime={{person.timeLastMessage}}
+        lastName={{person.users[0].lastName}} 
+        personimage={{person.users[0].currentImage}}
+        lastMessage={{person.lastMessageText}}
+        chatid={{person.id}}
+        (myclick)="clickChatPerson($event)"></chatperson>
+    </div>
+</div>

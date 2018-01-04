@@ -1,0 +1,39 @@
+div.container {
+    width: 70%;
+    margin: auto;
+    
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+.navigat{
+    float: left;
+    max-width: 260px;
+    margin: 0;
+    padding-top: 0px;
+    
+    padding: 1em;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+.content {
+    max-height: 70%;
+    height: 900px;
+    padding-left: 1em;
+    margin: 0px;
+    overflow: hidden;
+}

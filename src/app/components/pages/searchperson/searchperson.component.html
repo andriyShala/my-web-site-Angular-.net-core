@@ -1,0 +1,26 @@
+<div class="search-content">
+    <div class="search-input-div">
+        <input type="text" [(ngModel)]='searchString' (keydown.enter)="search()"  class="search-input">
+    </div>
+    
+    <div *ngIf="loading == true"  class="loader">Loading..</div>
+    <div *ngFor="let person of people" class="search-person">
+        <img class="image" src="person.currentImage">
+        <table class="table">
+            <tr>
+                <td>
+                    <h5 class="firsname">{{person.firstName}}</h5>
+                </td>
+                
+                <td>
+                    <h5 class="lastname">{{person.lastName}}</h5>
+                </td>
+            </tr>
+            
+        </table>
+        <button class="button" *ngIf="showButton(person.isFriend,person.isSendProposition,'but1')" (click)='addFriend(person.username,$event)'>Add Friend</button>
+        <button class="button" *ngIf="showButton(person.isFriend,person.isSendProposition,'but3')" (click)='addFriend(person.username,$event)' disabled>You Send<br> Proposition Already</button>
+        <button class="button" *ngIf="showButton(person.isFriend,person.isSendProposition,'but2')" (click)='addFriend(person.username,$event)' disabled>Your Friend</button>
+    </div>
+
+</div>

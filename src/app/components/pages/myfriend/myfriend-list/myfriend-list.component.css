@@ -1,0 +1,133 @@
+.myfriend-container{
+ 
+}
+.myfriend-container .myfriend-content{
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+.myfriend-img{
+    float: left;
+    width: 70px;
+height: 70px;
+margin: 5px;
+}
+.myfriend-content .myfriend-button{
+float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+.myfriend-name{
+    float: left;
+    clear: right;
+}
+/* MODAL STYLES
+-------------------------------*/
+modals{
+    display: none;
+}
+    /* modals are hidden by default */
+    .modals {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        /* z-index must be higher than .modal-background */
+        z-index: 1000;
+        
+        /* enables scrolling for tall modals */
+        overflow: auto;
+
+    }
+.modals  .modals-body {
+            padding: 20px;
+            background: rgb(255, 255, 255);
+
+            /* margin exposes part of the modal background */
+            margin: auto;
+            margin-top: 100px;
+            height: 380px;
+          width: 600px;
+        }
+.modals .modals-image
+{
+            width: 500px;
+            height: 400px;
+}
+.modals-inputtext{
+    width: 95%;
+    height: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    resize: none;
+    border:1px solid #3366FF;
+	border-left: 4px solid #3366FF;
+}
+.modals-background {
+        /* modal background fixed across whole screen */
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        /* semi-transparent black  */
+        background-color: #000;
+        opacity: 0.75;
+        
+        /* z-index must be below .modal and above everything else  */
+        z-index: 900;
+}
+
+
+body.modals-open {
+    /* body overflow is hidden to hide main scrollbar when modal window is open */
+    overflow: hidden;
+}
+
+.modals-button{
+    outline: none;
+    float: right;
+	-moz-box-shadow: 3px 4px 0px 1px #899599;
+	-webkit-box-shadow: 3px 4px 0px 1px #899599;
+	box-shadow: 3px 4px 0px 1px #899599;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:18px;
+	padding:8px 37px;
+	text-decoration:none;
+	text-shadow:2px 1px 0px #e1e2ed;
+}
+.modals-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+}
+.modals-button:active {
+	position:relative;
+	top:1px;
+}

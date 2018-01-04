@@ -1,0 +1,28 @@
+.navmenu{
+border: black solid 8px;
+border-radius: 35px;
+padding-top: 50px;
+padding-bottom: 50px;
+float: left;
+
+width: 250px;
+margin-left: 0px;
+}
+.navmenuLi
+{
+    list-style: none;
+}
+.menuA{
+    text-decoration-line: none;
+    border:black solid 2px;
+    width: 150px;
+    display: block;
+    margin-top: 5px;
+    border-radius: 7px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.menuA:hover{
+    background-color: bisque;
+}

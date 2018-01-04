@@ -1,0 +1,29 @@
+<div class="myfriend-container">
+<div class="myfriend-inputcontainer">
+
+</div>
+<div class="myfriend-content" *ngFor="let person of friends">
+    <img class="myfriend-img"  src="{{person.currentImage}}">
+    <table class="myfriend-name">
+            <tr>
+                  <td><h4>{{person.firstName}}</h4></td>  
+                  <td><h4>{{person.lastName}}</h4></td>                              
+            </tr>
+    </table>
+    <button class="myfriend-button" (click)="openSendDialog(person.username)" >Send Message</button>
+</div>
+
+
+</div>
+<modals id="custom-modalFriend-SendImage">
+    <div class="modals">
+        <div class="modals-body">
+
+            <h1>Write Your Message</h1>
+            <textarea class="modals-inputtext" ref-textarea [(ngModel)]="message"></textarea>
+         
+            <button class="modals-button" (click)="SendMessage();">Send</button>
+        </div>
+    </div>
+    <div class="modals-background"></div>
+</modals>

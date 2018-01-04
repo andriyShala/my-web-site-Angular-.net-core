@@ -1,0 +1,17 @@
+.divMP1{
+
+}
+.divMPimage{
+
+}
+.MPimage{
+    background-color: rebeccapurple;
+    width: 300px;
+    height: 400px;
+    margin: 3px;
+}
+.MPimage:hover{
+    border:blue solid 3px;
+    margin: 0px;
+    
+}

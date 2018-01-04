@@ -1,0 +1,14 @@
+.navlogindiv{
+    float: right;
+    display: block;
+}
+.navloginbt{
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: aliceblue;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}

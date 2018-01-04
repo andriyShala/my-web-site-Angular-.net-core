@@ -1,0 +1,205 @@
+
+div{
+    display: block;
+}
+.nav-header{
+    display: block;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    height: 50px;
+    width: 111px;
+    float: left;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navigationbar-inverse{
+    min-width: 900px;    
+    margin: auto;
+    width: 70%;
+    background-color: black;
+    border-bottom-color: rgb(8, 8, 8);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(8, 8, 8);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(8, 8, 8);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(8, 8, 8);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 50px;
+    position: relative;
+    height: 52px;
+
+}
+.divnavigation{
+    margin: auto;
+    width: 100%;
+    min-width: 850px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 14px;
+    height: 50px;
+    line-height: 20px;
+  
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-header{
+    float: left;
+}
+.navbar-form{
+    border-style: none;
+    border-width: 0px;
+    box-sizing: border-box;
+
+    border-bottom-color: black;
+    float: left;
+    width: 265px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 34px;
+    box-shadow: none;
+}
+.navbar-navigation{
+    margin: 0px;
+    box-sizing: border-box;
+    float: left;
+    list-style: none;
+    display: block;
+    list-style-position: outside;
+    list-style-type: none;
+    width: 360px;
+    height: 50px;
+    line-height: 20px;
+}
+
+.navbar-navigation li{
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: left;
+    width: 74px;
+    height: 50px;
+}
+.linked{
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+
+    display: block;
+    box-sizing: border-box;
+    height: 50px;
+    list-style-image: none;
+    list-style-type: none;
+    list-style-position: outside;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-align: left;
+    text-decoration-style: solid;
+    color: rgb(196, 41, 41);
+    width: 75px;
+    text-decoration-line: none;
+    text-decoration-color: rgb(157, 157, 157);
+}
+.active{
+    color:gray;
+}
+a:hover{
+    color:white;
+}
+.input-groups{
+    border-collapse: separate;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-table;
+    font-size: 14px;
+    height: 34px;
+    line-height: 20px;
+    width: 81px;
+    position: relative;
+    vertical-align: middle;
+}
+.form-controle{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(204, 204, 204);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 4px;
+    border-width: 1px;
+    box-sizing: border-box;
+    float: left;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 400;
+    height: 34px;
+    letter-spacing: normal;
+    line-height: 20px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    position: relative;
+    text-align: start;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    width: 192px;
+
+}
+.input-groups-button{
+    width: 39px;
+    height: 34px;
+    border-collapse: separate;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: table-cell;
+    font-size: 0px;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+    
+}
+.button-search{
+    align-items: flex-start;
+    background-color: white;
+    background-image: none;
+    border-color: rgb(204, 204, 204);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    width: 40px;
+    height: 34px;
+}

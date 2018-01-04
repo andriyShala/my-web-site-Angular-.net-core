@@ -1,0 +1,27 @@
+<mypage-statusbar [firstname]="currentUser.firstName" [lastname]="currentUser.lastName">
+
+</mypage-statusbar>
+<div class="divMP1">
+    <div class="divMPimage">
+            <img class="MPimage" [src]="srcimage" (click)="openModal('custom-modal-1')">
+            <button (click)="changeImag()" >Change Image</button>
+    </div>
+        <div>
+            
+            <h1>My page</h1>
+        </div>
+</div>
+<modal id="custom-modal-1">
+    <div class="modal">
+        <div class="modal-body">
+
+            <h1>A Custom Modal!</h1>
+            <img class="modal-image" [src]="srcimage">
+            <p>
+                Home page text: <input type="text" [(ngModel)]="bodyText" />
+            </p>
+            <button (click)="closeModal('custom-modal-1');">Close</button>
+        </div>
+    </div>
+    <div class="modal-background"></div>
+</modal>

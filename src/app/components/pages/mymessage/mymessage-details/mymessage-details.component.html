@@ -1,0 +1,12 @@
+<div class="chatbox">
+    <div class="messages" #scrollMe id="style-2">
+    <div *ngFor="let message of messages" [class.mymessage]="message.self" [class.partnermessage]="!message.self">
+        <span>{{message.text}}</span>
+    </div>
+    
+    </div>
+    <div class="input-container">
+    <textarea class="inputtext" ref-textarea [(ngModel)]="message"></textarea>
+    <button class="senndBtn" (click)='sendMessage()'>Send</button>
+</div>
+</div>

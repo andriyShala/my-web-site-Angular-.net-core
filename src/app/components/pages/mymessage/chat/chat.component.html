@@ -1,0 +1,22 @@
+<div class="chatperson" (click)="MyClickEvent()">
+    <img class="chatperson-img" [src]="personimage">
+    <table>
+        <tr>
+            <td>
+                <h5 class="chatperson-firsname">{{firstName}}</h5>
+                <h5 class="chatperson-lastname">{{lastName}}</h5>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <h5 class="chatperson-state">{{state}}</h5>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h6 class="chatperson-lasttime">{{lastTime}}</h6>
+            </td>
+        </tr>
+    </table>
+    <h4 class="chatperson-lastmessage" >{{lastMessage}}</h4>
+</div>
