@@ -1,0 +1,11 @@
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.0\WebApplication5.deps.json
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.0\WebApplication5.runtimeconfig.json
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.0\WebApplication5.runtimeconfig.dev.json
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.0\WebApplication5.dll
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.0\WebApplication5.pdb
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.0\WebApplication5.csprojResolveAssemblyReference.cache
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.0\WebApplication5.csproj.CoreCompileInputs.cache
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.0\WebApplication5.AssemblyInfoInputs.cache
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.0\WebApplication5.AssemblyInfo.cs
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.0\WebApplication5.dll
+C:\Users\Андрій\Documents\Visual Studio 2017\Projects\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.0\WebApplication5.pdb
